@@ -1,0 +1,11 @@
+.to-do-item {
+    background-color: #164038;
+    border-radius: 10px;
+    border: 2px solid #164038;
+    padding: 10px 15px;
+    color: #E1FFA0;
+    transition: all .3s ease;
+    &:hover {
+        border: 2px solid #22bc00;
+    }
+}

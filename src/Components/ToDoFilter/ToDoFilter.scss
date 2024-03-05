@@ -1,0 +1,19 @@
+.task__filter {
+    height: 0;
+    overflow: hidden;
+    .filter__item {
+        border: none;
+        background-color: #fff;
+        color: #164038;
+        border-radius: 5px;
+        transition: all .3s ease;
+        &:hover {
+            background-color: #baff24;
+        }
+    }
+}
+
+.task__filter.filter__active {
+    height: 100%;
+    padding-top: 15px;
+}
